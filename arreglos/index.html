@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglos Asociativos</title>
+
+    <style>
+        form {
+            padding: 10px 15px 15px 15px;
+            width: 70%;
+        }
+
+        .div-container{
+            display: flex;
+            width: 60%;
+        }
+
+        #left, #middle, #right {
+            padding: 10px 15px 15px 15px;
+            border: 1px solid #000;
+        }
+
+        button{
+            margin-top: 10px;
+            padding: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <form action="salida.php" method="post">
+
+        <div class="div-container">
+
+            <div id="left" style="float:left; width: 30%;">
+                <h3>Empleado 1</h3>
+
+
+                <p>Nombre: </p>
+                <input type="text" name="name1">
+
+                <p>Apellido: </p>
+                <input type="text" name="lastname1">
+
+                <p>Cedula: </p>
+                <input type="text" name="id1">
+
+                <p>Sueldo: </p>
+                <input type="text" name="salary1">
+
+                <p>Departamento: </p>
+                <input type="text" name="dep1">
+
+                <p>Lugar de trabajo: </p>
+                <input type="text" name="place1">
+
+            </div>
+
+            <div id="middle" style="float:left; width: 30%;">
+                <h3>Empleado 2</h3>
+
+
+                <p>Nombre: </p>
+                <input type="text" name="name2">
+
+                <p>Apellido: </p>
+                <input type="text" name="lastname2">
+
+                <p>Cedula: </p>
+                <input type="text" name="id2">
+
+                <p>Sueldo: </p>
+                <input type="text" name="salary2">
+
+                <p>Departamento: </p>
+                <input type="text" name="dep2">
+
+                <p>Lugar de trabajo: </p>
+                <input type="text" name="place2">
+
+            </div>
+
+            <div id="right" style="float:left; width: 30%;">
+                <h3>Empleado 3</h3>
+
+
+                <p>Nombre: </p>
+                <input type="text" name="name3">
+
+                <p>Apellido: </p>
+                <input type="text" name="lastname3">
+
+                <p>Cedula: </p>
+                <input type="text" name="id3">
+
+                <p>Sueldo: </p>
+                <input type="text" name="salary3">
+
+                <p>Departamento: </p>
+                <input type="text" name="dep3">
+
+                <p>Lugar de trabajo: </p>
+                <input type="text" name="place3">
+
+            </div>
+
+        </div>
+
+        <button type="submit" name="btn" value="send">Enviar</button>
+
+        <br>
+
+    </form>
+
+    <script>
+        e.preventDefault();
+    </script>
+
+
+
+</body>
+
+</html>
